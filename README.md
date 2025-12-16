@@ -23,7 +23,7 @@ This repository contains:
 - SQL
 
 ### Challenges faced
-One of the main challenges when building this project was that we had so much data coming in from the car and it was all in a stream of 1s and 0s. We also had many drive days (one linked here!) and each drive of the car, produced thousands of rows of data.
+One of the main challenges when building this project was that we had so much data coming in from the car and it was all in a stream of 1s and 0s. We also had many drive days and each drive of the car, produced thousands of rows of data.
 
 It was difficult for people who were not involved in the actual hardware engineering of the sensors to work with that data since it kept on changing and it was completely unreadable from a human's perspective. We needed to find a way to stream this data into a standardized schema to be used in our visualization interface.
 
@@ -113,9 +113,6 @@ pip install streamlit
 ```sh
 streamlit run app.py
 ```
-
-#### Live website
-https://nfr25interface.streamlit.app/ 
 
 
 
